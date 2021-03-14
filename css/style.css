@@ -9,6 +9,7 @@
   --fives-colour: #eeeeee;
   --background-colour: #2f303a;
   --secondary-bg-colour: #f5f4fa;
+  --vectorsbg:#F5F4FA;
 }
 body {
   font-family: var(--main-font);
@@ -91,7 +92,16 @@ img {
 
   border-bottom: var(--fives-colour) 1px solid;
 }
-
+.header-icons-tel{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+.header-icons-mail{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
 .header-links-item:not(:last-child) {
   margin-left: auto;
   margin-right: 50px;
@@ -162,7 +172,7 @@ img {
 
   color: var(--second-colour);
 }
-.contact-tel:hover,
+.contact-tel :hover,
 .contact-tel :focus {
   color: var(--akcent-color);
 }
@@ -183,6 +193,12 @@ img {
   text-align: center;
   padding-bottom: 200px;
   padding-top: 200px;
+  background-image:linear-gradient(rgba(47, 48, 58, 0.4),
+rgba(47, 48, 58, 0.4)
+  ), url(../images/herro/Img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 .herro-link:not(:last-child) {
@@ -281,6 +297,15 @@ img {
 .features {
   padding-top: 94px;
   padding-bottom: 47px;
+}
+.features-icons{
+  margin-bottom: 30px;
+  justify-content: center;
+  display: flex;
+  width: 270px;
+height: 120px;
+background-color: var(--vectorsbg);
+align-items: center;
 }
 .about-list {
   display: flex;
@@ -409,6 +434,27 @@ img {
 }
 .logo-dark-teme {
   color: var(--first-colour);
+}
+/*===========Partners=========*/
+.partners-thumb{
+width: 170px;
+height: 90px;
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.container-partners{
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+
 }
 /*=========footer=======*/
 footer {
