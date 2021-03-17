@@ -105,7 +105,7 @@ img {
   margin-right: 10px;
 }
 
-.header-links-item:hover 
+.header-links-item:hover, .header-icons-mail,.header-icons-tel
 {
   color: var(--akcent-color);
 }
@@ -580,6 +580,18 @@ footer {
 }
 .adreess-link {
   margin-top: 20px;
+}
+.adress-item:hover,
+.adress-item:focus {
+  color: var(--akcent-color);
+}
+.adress-tel:hover,
+.adress-tel:focus{
+  color: var(--akcent-color);
+}
+.adress-mail:hover,
+.adress-mail:focus{
+  color: var(--akcent-color);
 }
 .icon-list{
   display: flex;
