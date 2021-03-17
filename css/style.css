@@ -457,6 +457,7 @@ align-items: center;
 .social-list-link:hover,
 .social-list-link:focus{
 background-color: var(--akcent-color);
+fill: var(--first-colour);
 
 }
 .social-list{
@@ -486,10 +487,11 @@ justify-content: center;
 fill:var(--vectors);
 
 }
-.partners-thumb :hover,
+/*.partners-thumb :hover,
 .partners-thumb:focus {
-background-color: var(--akcent-color);
-}
+color: var(--first-colour);
+background-color: var(--first-colour);
+}*/
 .partners-list{
   display: flex;
   align-items: center;
@@ -500,6 +502,7 @@ background-color: var(--akcent-color);
 .partners-item:hover,
 .partners-item:focus{
   background-color:var(--akcent-color);
+  
  
   
 }/*
