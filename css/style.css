@@ -104,8 +104,9 @@ img {
   height: 12px;
   margin-right: 10px;
 }
-.header-links-item:hover,
-.header-links-item:focus{
+
+.header-links-item:hover 
+{
   color: var(--akcent-color);
 }
 .header-links-item:not(:last-child) {
@@ -178,11 +179,11 @@ img {
 
   color: var(--second-colour);
 }
-.contact-tel :hover,
-.contact-tel :focus {
+.contact-tel :hover .header-icons-tel,
+.contact-tel :focus .header-icons-tel{
   color: var(--akcent-color);
 }
-.contact-mail:hover,
+.contact-mail:hover ,
 .contact-mail:focus {
  color: var(--akcentcolor);
 }
@@ -475,8 +476,9 @@ fill: var(--first-colour);
   color: var(--first-colour);
 }
 /*===========Partners=========*/
-.partners-thumb{
-width: 170px;
+
+.partners-link{
+  width: 170px;
 height: 90px;
 border: 1px solid #AFB1B8;
 box-sizing: border-box;
@@ -485,7 +487,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 fill:var(--vectors);
-
 }
 .partners-thumb :hover,
 .partners-thumb:focus {
@@ -501,6 +502,7 @@ background-color: var(--first-colour);
 .partners-link:hover .partners-icon
 .partners-link:focus .partners-icon{
   fill:var(--akcent-color);
+  border-color: var(--akcent-color);
 }
 .partners-item:hover,
 .partners-icon .partners-link:focus{
