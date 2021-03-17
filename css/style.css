@@ -487,21 +487,26 @@ justify-content: center;
 fill:var(--vectors);
 
 }
-/*.partners-thumb :hover,
+.partners-thumb :hover,
 .partners-thumb:focus {
-color: var(--first-colour);
+fill: var(--akcent-color);
 background-color: var(--first-colour);
-}*/
+}
 .partners-list{
   display: flex;
   align-items: center;
   justify-content: space-between;
   
 }
-
+.partners-link:hover .partners-icon
+.partners-link:focus .partners-icon{
+  fill:var(--akcent-color);
+}
 .partners-item:hover,
-.partners-item:focus{
-  background-color:var(--akcent-color);
+.partners-icon .partners-link:focus{
+  fill:var(--akcent-color);
+  border: 1px solid var(--akcent-color);
+border-radius: 4px;
   
  
   
