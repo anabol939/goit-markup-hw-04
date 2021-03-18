@@ -99,15 +99,18 @@ img {
   height: 16px;
   margin-right: 10px;
 }
-.header-icons-mail{
+.header-icons{
   width: 16px;
   height: 12px;
   margin-right: 10px;
 }
 
-.header-links-item:hover, .header-icons-mail,.header-icons-tel
+
+.header-links-item:hover,
+.header-links-item:focus
 {
   color: var(--akcent-color);
+  fill:#2196f3
 }
 .header-links-item:not(:last-child) {
   margin-left: auto;
@@ -159,7 +162,7 @@ img {
 .navigation-link:focus {
   color: var(--akcent-color);
 }
-.contact-mail {
+.contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -169,22 +172,11 @@ img {
 
   color: var(--second-colour);
 }
-.contact-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 32px;
 
-  color: var(--second-colour);
-}
-.contact-tel :hover .header-icons-tel,
-.contact-tel :focus .header-icons-tel{
-  color: var(--akcent-color);
-}
-.contact-mail:hover ,
-.contact-mail:focus {
+
+.header-icons,.contact-link:hover ,
+.contact-link:focus {
+ 
  color: var(--akcentcolor);
 }
 .contact-list {
@@ -192,6 +184,7 @@ img {
   align-items: center;
 
   margin-left: auto;
+
 }
 
 /*=========HERO========*/
