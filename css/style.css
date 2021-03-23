@@ -565,18 +565,16 @@ footer {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.adress {
-  margin-top: 20px;
 }
 
+.logo-footer-link {
+  margin-bottom: 20px;
+}
 .adress-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  margin-bottom: 20px;
+
   letter-spacing: 0.03em;
   margin-bottom: 9px;
 
@@ -598,9 +596,6 @@ footer {
   letter-spacing: 0.02em;
 
   color: var(--second-colour);
-}
-.adreess-link {
-  margin-top: 20px;
 }
 
 .adress-item:hover,
